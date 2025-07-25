@@ -1,0 +1,964 @@
+50
+I main FUNCTION INT a INT b
+I sum FUNCTION INT x INT y
+I result VAR
+I temp VAR
+I flag BOOL
+I pi FLOAT
+I name STRING
+I data STRUCT INT id STRING value
+I unionData UNION INT id STRING value
+I arr VAR
+I counter VAR
+L result
+L temp
+L flag
+L pi
+L name
+L data
+L unionData
+L arr
+L counter
+S
+I 1 NUMBER
+I 2 NUMBER
+I 3 NUMBER
+I 4 NUMBER
+I 5 NUMBER
+I 6 NUMBER
+I 7 NUMBER
+I 8 NUMBER
+I 9 NUMBER
+I 10 NUMBER
+L 1
+L 2
+L 3
+L 4
+L 5
+L 6
+L 7
+L 8
+L 9
+L 10
+P C
+D result
+D temp
+D flag
+D pi
+D name
+D data
+D unionData
+D arr
+D counter
+D 1
+D 2
+D 3
+D 4
+D 5
+D 6
+D 7
+D 8
+D 9
+D 10
+E
+S
+I foo FUNCTION INT a FLOAT b
+I bar FUNCTION STRING s
+I baz FUNCTION BOOL flag
+I alpha VAR
+I beta VAR
+I gamma VAR
+I delta VAR
+I epsilon VAR
+I zeta VAR
+I eta VAR
+I theta VAR
+I i VAR
+I j VAR
+I k VAR
+I l VAR
+I m VAR
+I n VAR
+I o VAR
+I p VAR
+I q VAR
+I r VAR
+L alpha
+L beta
+L gamma
+L delta
+L epsilon
+L zeta
+L eta
+L theta
+L i
+L j
+L k
+L l
+L m
+L n
+L o
+L p
+L q
+L r
+P A
+D alpha
+D beta
+D gamma
+D delta
+D epsilon
+D zeta
+D eta
+D theta
+D i
+D j
+D k
+D l
+D m
+D n
+D o
+D p
+D q
+D r
+E
+S
+I <= RELOP
+I == RELOP
+I >= RELOP
+I != RELOP
+I < RELOP
+I > RELOP
+I + ADDOP
+I - ADDOP
+I * MULOP
+I / MULOP
+I % MULOP
+P C
+D <=
+D ==
+D >=
+D !=
+D <
+D >
+D +
+D -
+D *
+D /
+D %
+E
+S
+I student STRUCT INT id STRING name FLOAT gpa
+I teacher STRUCT INT id STRING name STRING subject
+I course STRUCT INT code STRING title INT credits
+I classroom STRUCT INT room_no INT capacity
+I book STRUCT STRING isbn STRING title STRING author
+I library STRUCT INT id STRING name
+I member STRUCT INT id STRING name
+I borrow STRUCT INT member_id STRING book_isbn
+I return STRUCT INT member_id STRING book_isbn
+I fine STRUCT INT member_id FLOAT amount
+I payment STRUCT INT member_id FLOAT amount
+I event STRUCT INT id STRING description
+I log STRUCT INT id STRING action
+I config STRUCT STRING key STRING value
+I setting STRUCT STRING key STRING value
+I option STRUCT STRING key STRING value
+I param STRUCT STRING key STRING value
+I info STRUCT STRING key STRING value
+I detail STRUCT STRING key STRING value
+I record STRUCT STRING key STRING value
+L student
+L teacher
+L course
+L classroom
+L book
+L library
+L member
+L borrow
+L return
+L fine
+L payment
+L event
+L log
+L config
+L setting
+L option
+L param
+L info
+L detail
+L record
+P A
+D student
+D teacher
+D course
+D classroom
+D book
+D library
+D member
+D borrow
+D return
+D fine
+D payment
+D event
+D log
+D config
+D setting
+D option
+D param
+D info
+D detail
+D record
+E
+S
+I true BOOL
+I false BOOL
+L true
+L false
+P C
+D true
+D false
+E
+S
+I x VAR
+I y VAR
+I z VAR
+I w VAR
+I u VAR
+I v VAR
+I s VAR
+I t VAR
+I a VAR
+I b VAR
+I c VAR
+I d VAR
+I e VAR
+I f VAR
+I g VAR
+I h VAR
+I i VAR
+I j VAR
+I k VAR
+I l VAR
+L x
+L y
+L z
+L w
+L u
+L v
+L s
+L t
+L a
+L b
+L c
+L d
+L e
+L f
+L g
+L h
+L i
+L j
+L k
+L l
+P A
+D x
+D y
+D z
+D w
+D u
+D v
+D s
+D t
+D a
+D b
+D c
+D d
+D e
+D f
+D g
+D h
+D i
+D j
+D k
+D l
+E
+S
+I car STRUCT INT id STRING brand BOOL is_electric
+I bike STRUCT INT id STRING brand BOOL is_hydrolic_brake
+I bus STRUCT INT id STRING brand INT capacity
+I truck STRUCT INT id STRING brand INT load
+I van STRUCT INT id STRING brand INT seats
+I scooter STRUCT INT id STRING brand BOOL is_electric
+I train STRUCT INT id STRING brand INT coaches
+I airplane STRUCT INT id STRING brand INT engines
+I ship STRUCT INT id STRING brand INT decks
+I boat STRUCT INT id STRING brand INT seats
+L car
+L bike
+L bus
+L truck
+L van
+L scooter
+L train
+L airplane
+L ship
+L boat
+P C
+D car
+D bike
+D bus
+D truck
+D van
+D scooter
+D train
+D airplane
+D ship
+D boat
+E
+S
+I num VAR
+I nums VAR
+I values VAR
+I items VAR
+I list VAR
+I array VAR
+I matrix VAR
+I table VAR
+I grid VAR
+I map VAR
+I dict VAR
+I set VAR
+I queue VAR
+I stack VAR
+I heap VAR
+I tree VAR
+I graph VAR
+I node VAR
+I edge VAR
+I vertex VAR
+L num
+L nums
+L values
+L items
+L list
+L array
+L matrix
+L table
+L grid
+L map
+L dict
+L set
+L queue
+L stack
+L heap
+L tree
+L graph
+L node
+L edge
+L vertex
+P A
+D num
+D nums
+D values
+D items
+D list
+D array
+D matrix
+D table
+D grid
+D map
+D dict
+D set
+D queue
+D stack
+D heap
+D tree
+D graph
+D node
+D edge
+D vertex
+E
+S
+I id VAR
+I value VAR
+I key VAR
+I data VAR
+I info VAR
+I detail VAR
+I record VAR
+I entry VAR
+I item VAR
+I element VAR
+I obj VAR
+I ref VAR
+I ptr VAR
+I addr VAR
+I index VAR
+I count VAR
+I size VAR
+I length VAR
+I width VAR
+I height VAR
+L id
+L value
+L key
+L data
+L info
+L detail
+L record
+L entry
+L item
+L element
+L obj
+L ref
+L ptr
+L addr
+L index
+L count
+L size
+L length
+L width
+L height
+P C
+D id
+D value
+D key
+D data
+D info
+D detail
+D record
+D entry
+D item
+D element
+D obj
+D ref
+D ptr
+D addr
+D index
+D count
+D size
+D length
+D width
+D height
+E
+S
+I a VAR
+I b VAR
+I c VAR
+I d VAR
+I e VAR
+I f VAR
+I g VAR
+I h VAR
+I i VAR
+I j VAR
+I k VAR
+I l VAR
+I m VAR
+I n VAR
+I o VAR
+I p VAR
+I q VAR
+I r VAR
+I s VAR
+I t VAR
+L a
+L b
+L c
+L d
+L e
+L f
+L g
+L h
+L i
+L L j
+L k
+L l
+L m
+L n
+L o
+L p
+L q
+L r
+L s
+L t
+P A
+D a
+D b
+D c
+D d
+D e
+D f
+D g
+D h
+D i
+D j
+D k
+D l
+D m
+D n
+D o
+D p
+D q
+D r
+D s
+D t
+E
+S
+I foo STRUCT INT a FLOAT b
+I bar STRUCT INT x FLOAT y
+I baz STRUCT INT p FLOAT q
+I qux STRUCT INT m FLOAT n
+I quux STRUCT INT u FLOAT v
+I corge STRUCT INT s FLOAT t
+I grault STRUCT INT w FLOAT z
+I garply STRUCT INT r FLOAT x
+I waldo STRUCT INT y FLOAT z
+I fred STRUCT INT a FLOAT b
+L foo
+L bar
+L baz
+L qux
+L quux
+L corge
+L grault
+L garply
+L waldo
+L fred
+P C
+D foo
+D bar
+D baz
+D qux
+D quux
+D corge
+D grault
+D garply
+D waldo
+D fred
+E
+S
+I alpha VAR
+I beta VAR
+I gamma VAR
+I delta VAR
+I epsilon VAR
+I zeta VAR
+I eta VAR
+I theta VAR
+I iota VAR
+I kappa VAR
+I lambda VAR
+I mu VAR
+I nu VAR
+I xi VAR
+I omicron VAR
+I pi VAR
+I rho VAR
+I sigma VAR
+I tau VAR
+I upsilon VAR
+I phi VAR
+I chi VAR
+I psi VAR
+I omega VAR
+L alpha
+L beta
+L gamma
+L delta
+L epsilon
+L zeta
+L eta
+L theta
+L iota
+L kappa
+L lambda
+L mu
+L nu
+L xi
+L omicron
+L pi
+L rho
+L sigma
+L tau
+L upsilon
+L phi
+L chi
+L psi
+L omega
+P A
+D alpha
+D beta
+D gamma
+D delta
+D epsilon
+D zeta
+D eta
+D theta
+D iota
+D kappa
+D lambda
+D mu
+D nu
+D xi
+D omicron
+D pi
+D rho
+D sigma
+D tau
+D upsilon
+D phi
+D chi
+D psi
+D omega
+E
+S
+I 100 NUMBER
+I 200 NUMBER
+I 300 NUMBER
+I 400 NUMBER
+I 500 NUMBER
+I 600 NUMBER
+I 700 NUMBER
+I 800 NUMBER
+I 900 NUMBER
+I 1000 NUMBER
+L 100
+L 200
+L 300
+L 400
+L 500
+L 600
+L 700
+L 800
+L 900
+L 1000
+P C
+D 100
+D 200
+D 300
+D 400
+D 500
+D 600
+D 700
+D 800
+D 900
+D 1000
+E
+S
+I a1 VAR
+I a2 VAR
+I a3 VAR
+I a4 VAR
+I a5 VAR
+I a6 VAR
+I a7 VAR
+I a8 VAR
+I a9 VAR
+I a10 VAR
+I b1 VAR
+I b2 VAR
+I b3 VAR
+I b4 VAR
+I b5 VAR
+I b6 VAR
+I b7 VAR
+I b8 VAR
+I b9 VAR
+I b10 VAR
+L a1
+L a2
+L a3
+L a4
+L a5
+L a6
+L a7
+L a8
+L a9
+L a10
+L b1
+L b2
+L b3
+L b4
+L b5
+L b6
+L b7
+L b8
+L b9
+L b10
+P A
+D a1
+D a2
+D a3
+D a4
+D a5
+D a6
+D a7
+D a8
+D a9
+D a10
+D b1
+D b2
+D b3
+D b4
+D b5
+D b6
+D b7
+D b8
+D b9
+D b10
+E
+S
+I c1 VAR
+I c2 VAR
+I c3 VAR
+I c4 VAR
+I c5 VAR
+I c6 VAR
+I c7 VAR
+I c8 VAR
+I c9 VAR
+I c10 VAR
+I d1 VAR
+I d2 VAR
+I d3 VAR
+I d4 VAR
+I d5 VAR
+I d6 VAR
+I d7 VAR
+I d8 VAR
+I d9 VAR
+I d10 VAR
+L c1
+L c2
+L c3
+L c4
+L c5
+L c6
+L c7
+L c8
+L c9
+L c10
+L d1
+L d2
+L d3
+L d4
+L d5
+L d6
+L d7
+L d8
+L d9
+L d10
+P C
+D c1
+D c2
+D c3
+D c4
+D c5
+D c6
+D c7
+D c8
+D c9
+D c10
+D d1
+D d2
+D d3
+D d4
+D d5
+D d6
+D d7
+D d8
+D d9
+D d10
+E
+S
+I e1 VAR
+I e2 VAR
+I e3 VAR
+I e4 VAR
+I e5 VAR
+I e6 VAR
+I e7 VAR
+I e8 VAR
+I e9 VAR
+I e10 VAR
+I f1 VAR
+I f2 VAR
+I f3 VAR
+I f4 VAR
+I f5 VAR
+I f6 VAR
+I f7 VAR
+I f8 VAR
+I f9 VAR
+I f10 VAR
+L e1
+L e2
+L e3
+L e4
+L e5
+L e6
+L e7
+L e8
+L e9
+L e10
+L f1
+L f2
+L f3
+L f4
+L f5
+L f6
+L f7
+L f8
+L f9
+L f10
+P A
+D e1
+D e2
+D e3
+D e4
+D e5
+D e6
+D e7
+D e8
+D e9
+D e10
+D f1
+D f2
+D f3
+D f4
+D f5
+D f6
+D f7
+D f8
+D f9
+D f10
+E
+S
+I g1 VAR
+I g2 VAR
+I g3 VAR
+I g4 VAR
+I g5 VAR
+I g6 VAR
+I g7 VAR
+I g8 VAR
+I g9 VAR
+I g10 VAR
+I h1 VAR
+I h2 VAR
+I h3 VAR
+I h4 VAR
+I h5 VAR
+I h6 VAR
+I h7 VAR
+I h8 VAR
+I h9 VAR
+I h10 VAR
+L g1
+L g2
+L g3
+L g4
+L g5
+L g6
+L g7
+L g8
+L g9
+L g10
+L h1
+L h2
+L h3
+L h4
+L h5
+L h6
+L h7
+L h8
+L h9
+L h10
+P C
+D g1
+D g2
+D g3
+D g4
+D g5
+D g6
+D g7
+D g8
+D g9
+D g10
+D h1
+D h2
+D h3
+D h4
+D h5
+D h6
+D h7
+D h8
+D h9
+D h10
+E
+S
+I i1 VAR
+I i2 VAR
+I i3 VAR
+I i4 VAR
+I i5 VAR
+I i6 VAR
+I i7 VAR
+I i8 VAR
+I i9 VAR
+I i10 VAR
+I j1 VAR
+I j2 VAR
+I j3 VAR
+I j4 VAR
+I j5 VAR
+I j6 VAR
+I j7 VAR
+I j8 VAR
+I j9 VAR
+I j10 VAR
+L i1
+L i2
+L i3
+L i4
+L i5
+L i6
+L i7
+L i8
+L i9
+L i10
+L j1
+L j2
+L j3
+L j4
+L j5
+L j6
+L j7
+L j8
+L j9
+L j10
+P A
+D i1
+D i2
+D i3
+D i4
+D i5
+D i6
+D i7
+D i8
+D i9
+D i10
+D j1
+D j2
+D j3
+D j4
+D j5
+D j6
+D j7
+D j8
+D j9
+D j10
+E
+S
+P A
+Q

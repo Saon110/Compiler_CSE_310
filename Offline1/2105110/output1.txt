@@ -1,0 +1,5 @@
+	ScopeTable# 1 created
+Cmd 1: E 
+	No scope to exit
+Cmd 2: Q
+	ScopeTable# 1 removed

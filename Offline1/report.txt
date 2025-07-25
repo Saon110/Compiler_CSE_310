@@ -1,0 +1,20 @@
+SDMBHash: [Source=> https://www.partow.net/programming/]
+Total Collisions: 4
+Total Scope Tables: 8
+Ratio: 0.5
+
+DJBHash: [Source=> https://www.partow.net/programming/]
+Total Collisions: 1
+Total Scope Tables: 8
+Ratio: 0.125
+
+BKDRHash: [Source=> https://www.partow.net/programming/]
+Total Collisions: 2
+Total Scope Tables: 8
+Ratio: 0.25
+
+DEKHash: [Source=> https://www.partow.net/programming/]
+Total Collisions: 0
+Total Scope Tables: 8
+Ratio: 0
+
